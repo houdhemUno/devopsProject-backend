@@ -29,8 +29,6 @@ pipeline {
                     sh 'npm -v'
                     //Install the Node.js application
                     sh 'npm install'
-                    //Build the Node.js application
-                    sh 'npm run build'
                     //Package the Node.js application
                     sh 'npm pack'
                     //Check folder
