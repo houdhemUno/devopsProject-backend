@@ -42,7 +42,7 @@ pipeline {
                 script {
                     def scannerHome = tool 'SonarQubeScannerInstall'; 
                     echo ' trying hard'
-                    withSonarQubeEnv('sonarInstall') {
+                    withSonarQubeEnv('sonarInstallBack') {
                         echo "starting scan "
                         sh "${scannerHome}/bin/sonar-scanner"
                     }
