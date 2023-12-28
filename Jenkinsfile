@@ -33,7 +33,7 @@ pipeline {
                     sh 'npm pack'
                     //Check folder
                     sh 'ls'
-                    sh 'mv backend-0.0.0.tgz backend.tgz' 
+                    sh 'mv backend-1.0.0.tgz backend.tgz' 
             }
         }
 
